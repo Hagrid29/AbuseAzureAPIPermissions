@@ -4,7 +4,7 @@ While reading [blog post](https://posts.specterops.io/azure-privilege-escalation
 
 This script would be good to use when
 
-- Azure Portal was blocked with organization but still allowing query from Graph API with client app "Microsoft Azure PowerShell" or "Azure Active Directory PowerShell" or etc. It helps you to recon
+- Azure Portal was blocked by organization but still allowing query from Graph API with client app "Microsoft Azure PowerShell" or "Azure Active Directory PowerShell" or etc. It helps you to recon
 - compromised privileged account like Global Admin. It helps you to persist and collect data by different means
 - compromised AAD Sync account [[REF](https://github.com/Hagrid29/DumpAADSyncCreds)] or application owner or application admin or etc. It allow you add credential to service principle and compromise further resources depending on the permission it has
 
